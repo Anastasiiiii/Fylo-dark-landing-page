@@ -1,0 +1,22 @@
+.menu-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    width: 7%;
+    height: 7%
+}
+
+.menu-line{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    list-style-type: none;
+    color: var(--white);
+}
+
+.menu-line a{
+    text-decoration: none;
+    color: inherit;
+}

@@ -1,0 +1,5 @@
+.header-container {
+    width: 100%;
+    background: url('../images/bg-curvy-desktop.svg') no-repeat center center var(--dark-blue);
+    background-size: cover;
+}
