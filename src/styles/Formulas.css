@@ -12,4 +12,19 @@
     --blue: hsl(198, 60%, 50%); /*inside call-to-action gradient*/
     --light-red: hsl(0, 100%, 63%); /*error*/
     --white: hsl(0, 0%, 100%);
+
+    /*Typography*/
+    /*Headings, Call-to-actions, Header Navigation*/
+
+    --font-family: "Raleway", sans-serif;
+    --font-optical-sizing: auto;
+    --font-style: italic;
+
+    /*Body*/
+
+    --font-family-body: "Open Sans", sans-serif;
+    --font-optical-sizing-body: auto;
+    --font-style-body: normal;
+
+    
 }

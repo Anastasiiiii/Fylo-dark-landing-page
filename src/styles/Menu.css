@@ -1,6 +1,9 @@
 .menu-container {
     display: flex;
     flex-direction: row;
+    gap: 75%;
+    margin-top: 40px;
+    margin-left: 40px;
 }
 
 .logo {
@@ -11,12 +14,31 @@
 .menu-line{
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 20px;
     list-style-type: none;
     color: var(--white);
+    font-family: var(--font-family);
+    font-optical-sizing: var(--font-optical-sizing);
+    font-size: small;
+    width: 200;
 }
 
 .menu-line a{
     text-decoration: none;
     color: inherit;
+}
+
+@media (max-width: 500px) {
+    .logo {
+        width: 20%;
+        height: 20%
+    }
+
+    .menu-container{
+        gap: 20%;
+    }
+
+    .menu-line {
+        font-size: x-small;
+    }
 }

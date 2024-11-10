@@ -1,5 +1,9 @@
 body {
   margin: 0;
   padding: o;
-  background-color: hsl(218, 28%, 13%);
+  background-color: var(--dark-blue);
+  font-family: var(--font-family-body);
+  font-optical-sizing: var(--font-optical-sizing-body);
+  font-style: var(--font-style-body);
+  color: var(--white);
 }
