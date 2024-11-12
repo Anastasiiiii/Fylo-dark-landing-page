@@ -4,6 +4,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: url('../images/bg-curvy-desktop.svg') no-repeat center bottom;
+    background-size: cover;
+    margin-bottom: 0;
 }
 
 

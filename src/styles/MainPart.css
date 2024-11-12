@@ -1,6 +1,7 @@
 .main-part-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);;
     width: 100%;
     height: 500px;
-    background: url('../images/bg-curvy-desktop.svg') no-repeat center center;
-    background-size: cover;
+    margin-top: 0;
 }
