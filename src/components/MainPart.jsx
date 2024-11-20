@@ -15,22 +15,30 @@ const MainPart = () => {
         {
             icon: accessIcon,
             header: "Access your files, anywhere",
-            passage: "The ability  to use a smartphone, tablet, or computer to access your account means your files follow you everywhere."
-        },
+            passage: (
+                <>
+                    The ability to use a smartphone, tablet, or computer <br />
+                    to access your account means your files follow you <br /> everywhere.
+                </>
+            )
+        },        
         {
             icon: securityIcon,
             header: "Security you can trust",
-            passage: "2-factor authentication and user-controlled encryption are just a couple of the security features we allow to help secure your files."
+            passage: (<>2-factor authentication and user-controlled encryption are <br /> 
+            just a couple of the security features we allow to help <br /> secure your files.</>)
         },
         {
             icon: realTimeIcon,
             header: "real-time collaboration",
-            passage: "Securely share files and folders with friends, family, and collegues for live collaboration. No email attachments required."
+            passage: (<>Securely share files and folders with friends, family, <br /> 
+            and collegues for live collaboration. No email attachments <br /> required.</>)
         },
         {
             icon: anyFileIcon,
             header: "Store any type of file",
-            passage: "Whether you are sharing holidays photos or work documents, Fylo has you covered allowing for all file types to be securely stored and shared."
+            passage: (<>Whether you are sharing holidays photos or work <br /> 
+            documents, Fylo has you covered allowing for all file <br /> types to be securely stored and shared.</>)
         }
     ]
     return (
